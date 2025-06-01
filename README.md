@@ -54,6 +54,11 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 3. **Deploy Azure SQL Database**
    - Create Azure SQL DB resource, JSON file uploaded
    - Upload structured dataset (`Dataset1.1.csv`).  
+   - Define **query processing logic**.
+
+4. **Deploy Azure Storage Account**
+   - Create Azure Storage account resource, JSON file uploaded
+   - In data storage, create a container storing Dataset with blob type block blob  
    - Define **query processing logic**.  
 
 5. **Integrate GPT-4.1 for Query Understanding**  
