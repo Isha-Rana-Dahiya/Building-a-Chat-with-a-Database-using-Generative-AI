@@ -69,10 +69,21 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - Create Azure OpenAI resource  
    - Go to Azure AI Foundry
    - Deploy GPT 4.1, customize token setting by reducing it to 30 requests per minute
+     ![image](https://github.com/user-attachments/assets/97c96d24-b0a1-43c2-add2-d7d355e9a1b7)
+
 
 6. **Deploy embedding model text-embedding-3-small from model catalog via Azure AI Foundry**  
-   - Use **Azure Portal** to manage resources.  
-   - Monitor logs via **Azure Monitor**.  
+   - Use **Azure Portal** to manage resources.
+   - Reduce the token limit for model to reduce cost.
+   - Monitor logs via **Azure Monitor**.
+   - If cost optimization is priority, text-embedding-3-small is the better choice. For higher precision for complex NLP tasks, text-embedding-3-large may be considered. I 
+     considered cost optimization.
+
+7. **Using AI Responsibly**
+   - for deployment of models, under Gaurdrails and controls, we can filter the content.
+     ![image](https://github.com/user-attachments/assets/82209bbd-5fb8-4bad-ba0e-fc36e5eee781)
+
+   
 
 ## Usage  
 Send a **query request** to:  
