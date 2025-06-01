@@ -33,12 +33,15 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 -	Provides explanations (e.g., why certain brands are recommended).
 -	Generates alternative query suggestions.
 -	Results are sent to the user via chatbot UI, with formatted responses.
--	Optimization & Secure Handling
-
-
-
-
-
+-	Optimization
+- GPT-4.1 retains previous conversation context, refining responses dynamically.
+- Uses multi-turn reasoning to provide clarifications, refinements, and detailed insights.
+- Implements token optimizations, reducing unnecessary API calls
+- Azure AI Search embeddings (text-embedding-3-small) to enhance search accuracy.
+  Secure handling
+-	Azure Key Vault for API Security for secure handling in GPT 4.1 secures API keys and database credentials
+-	Response filtering prevents irrelevant results
+-	Performance tuning enhances search responsiveness
 
 ## Setup & Deployment  
 1. **Provision Azure AI Search**  
