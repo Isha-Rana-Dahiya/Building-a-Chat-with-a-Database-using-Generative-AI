@@ -13,12 +13,12 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 -  **Azure AI Foundry Deployment**  text-embedding-3-small model
 
 ## Flow Representations
-1. Ingest: Structured Data Preparation
+1. **Ingest: Structured Data Preparation**
 - Dataset Source: Your structured dataset (e.g., product catalog, sales transactions) is stored in Azure SQL Database.
 - Data Processing: If using unstructured metadata (e.g., descriptions), it undergoes chunking and embedding via Azure AI Search.
 - Structured tabular data is indexed using Azure SQL Indexer.
 
-2. Develop: Natural Language Query Interface
+2. **Develop: Natural Language Query Interface**
 - User Queries: Customers enter natural language questions such as "Suggest a brand for Rounded rectangular cat-eye reading glasses"
 - Azure Open AI gets your data from Azure AI Search
 - Intent Recognition: Azure AI Search use Azure AI Search index with Azure Open AI on your data.
@@ -28,7 +28,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 - Response Enhancement: GPT-4.1 summarizes retrieved data into a human-friendly response.
 -	Additional filters or product recommendations may be suggested.
 
-3. Inference: Generating a User-Friendly Response
+3. **Inference: Generating a User-Friendly Response**
 -	Azure OpenAI GPT-4.1 refines the output.
 -	Azure Open AI will answer our questions using Azure AI Search
 -	Give brand name and give details about glass feature.
