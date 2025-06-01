@@ -88,7 +88,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - for deployment of models, under Gaurdrails and controls, we can filter the content.
      ![image](https://github.com/user-attachments/assets/82209bbd-5fb8-4bad-ba0e-fc36e5eee781)
      
-8. **Interacting in Chat playground**
+8. **Interacting in Chat playground with our own database**
 ![image](https://github.com/user-attachments/assets/9ddd1959-69d7-4360-84bf-8f36f19e77c3)
 ![image](https://github.com/user-attachments/assets/8ea4c422-3172-4cbf-af53-0cc39fead718)
 ![image](https://github.com/user-attachments/assets/99021e51-286e-41ae-b263-bd8d7b8e1af2)
@@ -96,7 +96,4 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 
    
 
-## Usage  
-Send a **query request** to chat playground 
-```bash
-curl -X POST "https://your-deployment-url.com/query" -d '{"query": "Find me sunglasses under $50"}' -H "Content-Type: application/json"
+
