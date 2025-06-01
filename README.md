@@ -22,7 +22,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 - User Queries: Customers enter natural language questions such as "Suggest a brand for Rounded rectangular cat-eye reading glasses"
 - Intent Recognition: Azure AI Search use Azure AI Search index with Azure Open AI on your data.
 - GPT-4.1 generates relevant SQL queries based on detected query patterns.
-•	Query Execution: The translated SQL runs on Azure SQL Database.
+- Query Execution: The translated SQL runs on Azure SQL Database.
 -	If semantic search is required, vector embeddings refine the query in Azure AI Search.
 •	Response Enhancement: GPT-4.1 summarizes retrieved data into a human-friendly response.
 •	Additional filters or product recommendations may be suggested.
