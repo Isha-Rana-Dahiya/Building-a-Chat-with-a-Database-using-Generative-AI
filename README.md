@@ -12,6 +12,36 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 -  **azure AI Search** (basic tier) with semantic and vector embeddings 
 -  **Azure AI Foundry Deployment**  text-embedding-3-small model
 
+## Flow Representations
+1. Ingest: Structured Data Preparation
+- Dataset Source: Your structured dataset (e.g., product catalog, sales transactions) is stored in Azure SQL Database.
+- Data Processing:
+- If using unstructured metadata (e.g., descriptions), it undergoes chunking and embedding via Azure AI Search.
+- Structured tabular data is indexed using Azure SQL Indexer.
+
+2. Develop: Natural Language Query Interface
+- User Queries: Customers enter natural language questions such as "Suggest a brand for Rounded rectangular cat-eye reading glasses"
+- Intent Recognition:
+- Azure AI Search use Azure AI Search index with Azure Open AI on your data.
+- GPT-4.1 generates relevant SQL queries based on detected query patterns.
+•	Query Execution:
+- The translated SQL runs on Azure SQL Database.
+-	If semantic search is required, vector embeddings refine the query in Azure AI Search.
+•	Response Enhancement:
+•	GPT-4.1 summarizes retrieved data into a human-friendly response.
+•	Additional filters or product recommendations may be suggested.
+3. Inference: Generating a User-Friendly Response
+•	Azure OpenAI GPT-4.1 refines the output:
+o	Give brand name and give details about glass feature.
+o	Provides explanations (e.g., why certain brands are recommended).
+o	Generates alternative query suggestions.
+o	Results are sent to the user via chatbot UI, with formatted responses.
+o	Optimization & Secure Handling
+
+
+
+
+
 
 ## Setup & Deployment  
 1. **Provision Azure AI Search**  
