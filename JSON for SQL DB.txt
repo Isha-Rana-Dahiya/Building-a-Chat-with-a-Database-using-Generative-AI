@@ -1,0 +1,47 @@
+{
+    "sku": {
+        "name": "GP_S_Gen5",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 2
+    },
+    "kind": "v12.0,user,vcore,serverless,freelimit",
+    "properties": {
+        "collation": "SQL_Latin1_General_CP1_CI_AS",
+        "maxSizeBytes": 34359738368,
+        "status": "Paused",
+        "databaseId": "ff8a1e4a-0dc7-4e3e-98e0-2670e670ee00",
+        "creationDate": "2025-05-22T10:27:36.83Z",
+        "currentServiceObjectiveName": "GP_S_Gen5_2",
+        "requestedServiceObjectiveName": "GP_S_Gen5_2",
+        "defaultSecondaryLocation": "australiasoutheast",
+        "catalogCollation": "SQL_Latin1_General_CP1_CI_AS",
+        "zoneRedundant": false,
+        "maxLogSizeBytes": 193273528320,
+        "earliestRestoreDate": "2025-05-25T08:15:45.5901192Z",
+        "readScale": "Disabled",
+        "currentSku": {
+            "name": "GP_S_Gen5",
+            "tier": "GeneralPurpose",
+            "family": "Gen5",
+            "capacity": 2
+        },
+        "autoPauseDelay": 60,
+        "currentBackupStorageRedundancy": "Local",
+        "requestedBackupStorageRedundancy": "Local",
+        "minCapacity": 0.5,
+        "pausedDate": "2025-06-01T06:08:50.52Z",
+        "maintenanceConfigurationId": "/subscriptions/3ce8602a-3a56-4ecf-9ff8-690877991b3e/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default",
+        "isLedgerOn": false,
+        "isInfraEncryptionEnabled": false,
+        "useFreeLimit": true,
+        "freeLimitExhaustionBehavior": "AutoPause",
+        "availabilityZone": "NoPreference"
+    },
+    "location": "australiaeast",
+    "tags": {},
+    "id": "/subscriptions/3ce8602a-3a56-4ecf-9ff8-690877991b3e/resourceGroups/IRD_AISearchChat/providers/Microsoft.Sql/servers/irdazsqldbserver/databases/irdazsqldbbuildchat",
+    "name": "irdazsqldbbuildchat",
+    "type": "Microsoft.Sql/servers/databases",
+    "apiVersion": "2022-11-01-preview"
+}
