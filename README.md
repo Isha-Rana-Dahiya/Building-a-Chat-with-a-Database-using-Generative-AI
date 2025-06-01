@@ -52,7 +52,9 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - datasource type Azure blob storage, is dataset stored as azure blob container, JSON file uploaded
    - skillsets set, JSON file uploaded
    - Configure **vector index** with `text-embedding-3-small`.  
-   - Enable **semantic ranker** for relevance.  
+   - Enable **semantic ranker** for relevance.
+     ![image](https://github.com/user-attachments/assets/378b1610-ef6a-46cc-a4c6-77d4cc8f353a)
+
 
 3. **Deploy Azure SQL Database**
    - Create Azure SQL DB resource, JSON file uploaded
