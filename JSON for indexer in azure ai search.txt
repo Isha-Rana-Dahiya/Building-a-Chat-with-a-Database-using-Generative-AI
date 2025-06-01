@@ -1,0 +1,30 @@
+{
+  "@odata.context": "https://irdazureaisearchb.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DDA073F1031B3E\"",
+  "name": "rag-1748716053146-indexer",
+  "description": null,
+  "dataSourceName": "rag-1748716053146-datasource",
+  "skillsetName": "rag-1748716053146-skillset",
+  "targetIndexName": "rag-1748716053146",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "default"
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_name",
+      "targetFieldName": "title",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}
