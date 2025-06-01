@@ -51,15 +51,16 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - Configure **vector index** with `text-embedding-3-small`.  
    - Enable **semantic ranker** for relevance.  
 
-3. **Deploy Azure SQL Database**  
+3. **Deploy Azure SQL Database**
+   - Create Azure SQL DB resource, JSON file uploaded
    - Upload structured dataset (`Dataset1.1.csv`).  
    - Define **query processing logic**.  
 
-4. **Integrate GPT-4.1 for Query Understanding**  
+5. **Integrate GPT-4.1 for Query Understanding**  
    - Set up **Azure OpenAI API**.  
    - Enable **context-aware query refinement**.  
 
-5. **Deploy via Azure AI Foundry**  
+6. **Deploy via Azure AI Foundry**  
    - Use **Azure Portal** to manage resources.  
    - Monitor logs via **Azure Monitor**.  
 
