@@ -71,6 +71,10 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - Deploy GPT 4.1, customize token setting by reducing it to 30 requests per minute
      ![image](https://github.com/user-attachments/assets/97c96d24-b0a1-43c2-add2-d7d355e9a1b7)
 - adding a datasource through blob storage
+  ![image](https://github.com/user-attachments/assets/da8f0ebe-2509-4504-af68-79060b0deee0)
+![image](https://github.com/user-attachments/assets/a9723c87-41eb-4e80-86df-e7bd173ee872)
+![image](https://github.com/user-attachments/assets/54cdd44f-b49c-4a55-9659-087e9df6dd0f)
+
 
   Keep API key for data connection.
 
