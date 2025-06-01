@@ -1,0 +1,64 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/3ce8602a-3a56-4ecf-9ff8-690877991b3e/resourceGroups/IRD_AISearchChat/providers/Microsoft.Storage/storageAccounts/itdbuildchatstorageacc",
+    "name": "itdbuildchatstorageacc",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "australiaeast",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2025-05-22T07:35:31.0759509Z",
+            "key2": "2025-05-22T07:35:31.0759509Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "largeFileSharesState": "Enabled",
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-05-22T07:35:31.0759509Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2025-05-22T07:35:31.0759509Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2025-05-22T07:35:30.9665674Z",
+        "primaryEndpoints": {
+            "dfs": "https://itdbuildchatstorageacc.dfs.core.windows.net/",
+            "web": "https://itdbuildchatstorageacc.z8.web.core.windows.net/",
+            "blob": "https://itdbuildchatstorageacc.blob.core.windows.net/",
+            "queue": "https://itdbuildchatstorageacc.queue.core.windows.net/",
+            "table": "https://itdbuildchatstorageacc.table.core.windows.net/",
+            "file": "https://itdbuildchatstorageacc.file.core.windows.net/"
+        },
+        "primaryLocation": "australiaeast",
+        "statusOfPrimary": "available"
+    },
+    "apiVersion": "2022-05-01"
+}
