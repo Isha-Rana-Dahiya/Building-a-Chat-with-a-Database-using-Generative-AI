@@ -1,12 +1,16 @@
 # Chat with Database using Generative AI  
-A conversational AI system leveraging **Azure AI Search, Azure SQL DB, GPT-4.1, and text-embedding-3-small** for natural language querying.
+Build a system where users can "chat" with a structured database using natural language queries, leveraging the powerful capabilities of Generative AI models. Unlike traditional database query methods, this approach allows retrieving and interacting with data in user-friendly ways without requiring technical knowledge of query languages like SQL.
+
+Your customer has a structured relational database containing information relevant to their business. The goal is to create a system that allows users to interact with the database conversationally, extract insights, and manipulate data using natural language.
+
+A conversational AI system is built leveraging on AI Stack **Azure AI Search, Azure SQL DB, Azure Open AI Service(GPT-4.1 model), and text-embedding-3-small model** 
 
 ## Features  
 
--  **Azure AI Foundry Deployment**  GPT 4.1
+-  **Azure Open AI Service**  GPT 4.1 
 -  **Structured Query Processing** using Azure SQL DB  
--  **azure AI Search** with semantic and vector embeddings 
--  **Azure AI Foundry Deployment**  text-embedding-3-small
+-  **azure AI Search** (basic tier) with semantic and vector embeddings 
+-  **Azure AI Foundry Deployment**  text-embedding-3-small model
 
 
 ## Setup & Deployment  
