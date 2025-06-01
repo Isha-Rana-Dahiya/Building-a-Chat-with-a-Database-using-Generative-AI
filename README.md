@@ -1,4 +1,3 @@
-# Building-a-Chat-with-a-Database-using-Generative-AI
 # Chat with Database using Generative AI  
 A conversational AI system leveraging **Azure AI Search, Azure SQL DB, GPT-4.1, and text-embedding-3-small** for natural language querying.
 
