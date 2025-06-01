@@ -75,7 +75,6 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 ![image](https://github.com/user-attachments/assets/a9723c87-41eb-4e80-86df-e7bd173ee872)
 ![image](https://github.com/user-attachments/assets/54cdd44f-b49c-4a55-9659-087e9df6dd0f)
 
-
   Keep API key for data connection.
 
 6. **Deploy embedding model text-embedding-3-small from model catalog via Azure AI Foundry**  
@@ -88,6 +87,12 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 7. **Using AI Responsibly**
    - for deployment of models, under Gaurdrails and controls, we can filter the content.
      ![image](https://github.com/user-attachments/assets/82209bbd-5fb8-4bad-ba0e-fc36e5eee781)
+     
+8. **Interacting in Chat playground**
+![image](https://github.com/user-attachments/assets/9ddd1959-69d7-4360-84bf-8f36f19e77c3)
+![image](https://github.com/user-attachments/assets/8ea4c422-3172-4cbf-af53-0cc39fead718)
+![image](https://github.com/user-attachments/assets/99021e51-286e-41ae-b263-bd8d7b8e1af2)
+![image](https://github.com/user-attachments/assets/2d935083-746e-4802-96ea-46d4e5509f4f)
 
    
 
