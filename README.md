@@ -30,6 +30,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 
 3. Inference: Generating a User-Friendly Response
 -	Azure OpenAI GPT-4.1 refines the output.
+-	Azure Open AI will answer our questions using Azure AI Search
 -	Give brand name and give details about glass feature.
 -	Provides explanations (e.g., why certain brands are recommended).
 -	Generates alternative query suggestions.
@@ -46,6 +47,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 1. **Provision Azure AI Search**
    - create resource in basic tier
    - import and vectorize data
+   - create indexer, it automates index creation
    - create index, JSON file uploaded
    - datasource type Azure blob storage, is dataset stored as azure blob container, JSON file uploaded
    - skillsets set, JSON file uploaded
