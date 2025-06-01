@@ -62,7 +62,9 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 
 5. **Integrate GPT-4.1 for Query Understanding**  
    - Create Azure OpenAI resource  
-   - Enable **context-aware query refinement**.  
+   - Go to Azure AI Foundry
+   - Deploy GPT 4.1, customize token setting by reducing it to 30 requests per minute
+   - 
 
 6. **Deploy via Azure AI Foundry**  
    - Use **Azure Portal** to manage resources.  
