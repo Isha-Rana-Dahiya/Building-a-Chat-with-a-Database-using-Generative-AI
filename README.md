@@ -20,6 +20,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 
 2. Develop: Natural Language Query Interface
 - User Queries: Customers enter natural language questions such as "Suggest a brand for Rounded rectangular cat-eye reading glasses"
+- Azure Open AI gets your data from Azure AI Search
 - Intent Recognition: Azure AI Search use Azure AI Search index with Azure Open AI on your data.
 - GPT-4.1 generates relevant SQL queries based on detected query patterns.
 - Query Execution: The translated SQL runs on Azure SQL Database.
@@ -60,13 +61,12 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - Create Azure Storage account resource, JSON file uploaded
    - In data storage, create a container storing Dataset with blob type block blob   
 
-5. **Integrate GPT-4.1 for Query Understanding**  
+5. **Deploy GPT-4.1 for Query Understanding**  
    - Create Azure OpenAI resource  
    - Go to Azure AI Foundry
    - Deploy GPT 4.1, customize token setting by reducing it to 30 requests per minute
-   - 
 
-6. **Deploy via Azure AI Foundry**  
+6. **Deploy embedding model text-embedding-3-small from model catalog via Azure AI Foundry**  
    - Use **Azure Portal** to manage resources.  
    - Monitor logs via **Azure Monitor**.  
 
