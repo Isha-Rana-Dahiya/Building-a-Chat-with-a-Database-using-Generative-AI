@@ -46,7 +46,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 ## Setup & Deployment  
 1. **Provision Azure AI Search**
    - create resource in basic tier
-   - import and vectorize data
+   - import and vectorize data, in GPT 4.1, embeddings improve relevance. We need vector search for semantic similarity retrieval
    - create indexer, it automates index creation
    - create index, JSON file uploaded
    - datasource type Azure blob storage, is dataset stored as azure blob container, JSON file uploaded
