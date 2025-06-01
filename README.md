@@ -28,7 +28,7 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 -	Additional filters or product recommendations may be suggested.
 
 3. Inference: Generating a User-Friendly Response
--	Azure OpenAI GPT-4.1 refines the output:
+-	Azure OpenAI GPT-4.1 refines the output.
 -	Give brand name and give details about glass feature.
 -	Provides explanations (e.g., why certain brands are recommended).
 -	Generates alternative query suggestions.
