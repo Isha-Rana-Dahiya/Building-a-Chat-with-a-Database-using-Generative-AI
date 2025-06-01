@@ -1,0 +1,262 @@
+{
+    "id": "/subscriptions/3ce8602a-3a56-4ecf-9ff8-690877991b3e/resourceGroups/IRD_AISearchChat/providers/Microsoft.CognitiveServices/accounts/IRDOpenAIService",
+    "name": "IRDOpenAIService",
+    "type": "Microsoft.CognitiveServices/accounts",
+    "etag": "\"36036941-0000-1a00-0000-683b4e790000\"",
+    "location": "australiaeast",
+    "sku": {
+        "name": "S0"
+    },
+    "kind": "OpenAI",
+    "tags": {},
+    "properties": {
+        "endpoint": "https://irdopenaiservice.openai.azure.com/",
+        "internalId": "d0826f3180994a56af507cb6a5cd9c58",
+        "dateCreated": "2025-05-22T05:21:46.9855213Z",
+        "apiProperties": {},
+        "callRateLimit": {
+            "rules": [
+                {
+                    "key": "openai.dalle.post",
+                    "renewalPeriod": 1,
+                    "count": 30,
+                    "matchPatterns": [
+                        {
+                            "path": "dalle/*",
+                            "method": "POST"
+                        },
+                        {
+                            "path": "openai/images/*",
+                            "method": "POST"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.dalle.other",
+                    "renewalPeriod": 1,
+                    "count": 30,
+                    "matchPatterns": [
+                        {
+                            "path": "dalle/*",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/operations/images/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.assistants.list",
+                    "renewalPeriod": 60,
+                    "count": 120,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/assistants",
+                            "method": "GET"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.threads.list",
+                    "renewalPeriod": 60,
+                    "count": 120,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/threads",
+                            "method": "GET"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.vectorstores.list",
+                    "renewalPeriod": 60,
+                    "count": 120,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/vector_stores",
+                            "method": "GET"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.assistants.default",
+                    "renewalPeriod": 1,
+                    "count": 100000,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/assistants",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/assistants/*",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/threads",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/threads/*",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/vector_stores",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/vector_stores/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.responses.default",
+                    "renewalPeriod": 1,
+                    "count": 100000,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/responses",
+                            "method": "*"
+                        },
+                        {
+                            "path": "openai/responses/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.batches.post",
+                    "renewalPeriod": 60,
+                    "count": 30,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/batches",
+                            "method": "POST"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.batches.get",
+                    "renewalPeriod": 60,
+                    "count": 500,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/batches/*",
+                            "method": "GET"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai.batches.list",
+                    "renewalPeriod": 60,
+                    "count": 100,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/batches",
+                            "method": "GET"
+                        }
+                    ]
+                },
+                {
+                    "key": "openai",
+                    "renewalPeriod": 1,
+                    "count": 30,
+                    "matchPatterns": [
+                        {
+                            "path": "openai/*",
+                            "method": "*"
+                        }
+                    ]
+                },
+                {
+                    "key": "default",
+                    "renewalPeriod": 1,
+                    "count": 30,
+                    "matchPatterns": [
+                        {
+                            "path": "*",
+                            "method": "*"
+                        }
+                    ]
+                }
+            ]
+        },
+        "isMigrated": false,
+        "customSubDomainName": "irdopenaiservice",
+        "networkAcls": {
+            "defaultAction": "Allow",
+            "virtualNetworkRules": [],
+            "ipRules": []
+        },
+        "privateEndpointConnections": [],
+        "publicNetworkAccess": "Enabled",
+        "capabilities": [
+            {
+                "name": "VirtualNetworks"
+            },
+            {
+                "name": "CustomerManagedKey"
+            },
+            {
+                "name": "MaxFineTuneCount",
+                "value": "500"
+            },
+            {
+                "name": "MaxRunningFineTuneCount",
+                "value": "3"
+            },
+            {
+                "name": "MaxUserFileCount",
+                "value": "100"
+            },
+            {
+                "name": "MaxTrainingFileSize",
+                "value": "512000000"
+            },
+            {
+                "name": "MaxUserFileImportDurationInHours",
+                "value": "1"
+            },
+            {
+                "name": "MaxFineTuneJobDurationInHours",
+                "value": "720"
+            },
+            {
+                "name": "MaxEvaluationRunDurationInHours",
+                "value": "5"
+            },
+            {
+                "name": "MaxRunningEvaluationCount",
+                "value": "5"
+            },
+            {
+                "name": "TrustedServices",
+                "value": "Microsoft.CognitiveServices,Microsoft.MachineLearningServices,Microsoft.Search,Microsoft.VideoIndexer"
+            },
+            {
+                "name": "RaiMonitor"
+            }
+        ],
+        "endpoints": {
+            "OpenAI Language Model Instance API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Dall-E API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Sora API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Moderations API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Whisper API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Model Scaleset API": "https://irdopenaiservice.openai.azure.com/",
+            "OpenAI Realtime API": "https://irdopenaiservice.openai.azure.com/",
+            "Token Service API": "https://irdopenaiservice.openai.azure.com/"
+        },
+        "provisioningState": "Succeeded"
+    },
+    "systemData": {
+        "createdBy": "dahiya.isha21@gmail.com",
+        "createdByType": "User",
+        "createdAt": "2025-05-22T05:21:45.6594724Z",
+        "lastModifiedBy": "dahiya.isha21@gmail.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2025-05-22T05:21:45.6594724Z"
+    },
+    "apiVersion": "2021-04-30"
+}
