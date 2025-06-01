@@ -58,11 +58,10 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
 
 4. **Deploy Azure Storage Account**
    - Create Azure Storage account resource, JSON file uploaded
-   - In data storage, create a container storing Dataset with blob type block blob  
-   - Define **query processing logic**.  
+   - In data storage, create a container storing Dataset with blob type block blob   
 
 5. **Integrate GPT-4.1 for Query Understanding**  
-   - Set up **Azure OpenAI API**.  
+   - Create Azure OpenAI resource  
    - Enable **context-aware query refinement**.  
 
 6. **Deploy via Azure AI Foundry**  
