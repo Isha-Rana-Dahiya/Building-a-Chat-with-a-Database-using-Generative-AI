@@ -70,7 +70,9 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    - Go to Azure AI Foundry
    - Deploy GPT 4.1, customize token setting by reducing it to 30 requests per minute
      ![image](https://github.com/user-attachments/assets/97c96d24-b0a1-43c2-add2-d7d355e9a1b7)
+- adding a datasource through blob storage
 
+  Keep API key for data connection.
 
 6. **Deploy embedding model text-embedding-3-small from model catalog via Azure AI Foundry**  
    - Use **Azure Portal** to manage resources.
@@ -86,6 +88,6 @@ A conversational AI system is built leveraging on AI Stack **Azure AI Search, Az
    
 
 ## Usage  
-Send a **query request** to:  
+Send a **query request** to chat playground 
 ```bash
 curl -X POST "https://your-deployment-url.com/query" -d '{"query": "Find me sunglasses under $50"}' -H "Content-Type: application/json"
